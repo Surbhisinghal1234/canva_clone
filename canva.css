@@ -1,0 +1,110 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.navbar{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   box-shadow: 1px 1px 1px gainsboro;
+}
+.imgbox{
+    margin-left: 15px;
+}
+
+
+/* .imgbox{
+    height: 70px;
+    width: 70px;
+}
+.imgbox img{
+    width: 100%;
+    height: 100%;
+} */
+
+.img{
+    margin-left: -4rem;
+}
+.com{
+    margin-left: -70px;
+}
+.com img{
+padding: 10px;
+}
+.right{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-left: -30px;
+}
+.down{
+margin-left: -18px;
+}
+.list{
+    display: flex;
+    align-items: center;
+    margin-left: -40px;
+}
+.list li{
+    list-style: none;
+    padding: 20px;
+}
+.list li a{
+    text-decoration: none;
+}
+input{
+    padding: 10px 45px;
+}
+.logo{
+    margin-left: -60px;
+}
+.down{
+    margin-top: 5px;
+}
+.myfrm{
+    margin-top: 3px;
+    position: relative;
+}
+.myfrm i{
+    position: absolute;
+
+    top: 14px;
+    left: 16px;
+}
+.red{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 25px;
+    color: white;
+}
+.red_r{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.fc{
+    position: absolute;
+    background-color: gray;
+    border-radius: 50%;
+    height: 26px;
+    width: 26px;
+    right: 23px;
+    top: 54px;
+    color: white;
+    }
+.fc h5{
+    position: absolute;
+    top: 1px;
+    left: 5px;
+}
